@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  background-color: #A6192E;
+}
+
+.mainDiv {
+  background-color: #fff;
+  height: 95%;
+  width: 90%;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #3C3834;
+  border-width: 15px 0 30px 0;
+}
+.mainDiv h1{
+  margin: 20px 30px 5px 25px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #E9EFF1;
+  width: 80%;
+  display: inline-block;
+  margin: 0 0 0 25px;
+}
+#activities{
+  color: #A6192E;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+}
+table, td, th {
+  border: 1px solid black;
+}
+th {
+  background-color: #DCDCDC;
+  padding-left: 7px;
+
+}
+td {
+  padding-left: 7px;
+  width: 20%;
+}
+td p{
+  display: inline-block;
+}
+td input{
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#result {
+  color: #A6192E;
+  font-weight: bold;
+}
+#bottomButtons {
+  float: right;
+}
+#bottomButtons button{
+  margin: 7px;
+  background-color: #A6192E;
+  color: #f9f9f9;
+  border: none;
+  width: 100px;
+}
+
+.res {
+  display: inline;
+  margin-right: 7%; 
+}
+.res {
+  visibility: hidden;
+}

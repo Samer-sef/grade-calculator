@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+<body>
+
+<div class="mainDiv">
+  <h1>Grade Calculator</h1>
+  <div class="container">
+    <h5 id="activities">Activities</h4>
+    <p>Give grades to the numeric activities:</p>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Short Name</th>
+          <th>weight</th>
+          <th>Grade</th>
+          <th>Percent</th>
+        </tr>
+        <tr>
+          <td>Activity 1</td>
+          <td>A1</td>
+          <td><input type="text" id="weighted1"></td>
+          <td>
+            <div>
+                <input type="text" id="gradeInput1">
+                <p>/</p>
+                <input type="text" id="gradeOverallInput1">
+            </div>
+          </td>
+          <td id="percentRes1"></td>
+        </tr>
+        <tr>
+            <td>Activity 2</td>
+            <td>A2</td>
+            <td><input type="text" id="weighted2"></td>
+            <td>
+              <div>
+                  <input type="text" id="gradeInput2">
+                  <p>/</p>
+                  <input type="text" id="gradeOverallInput2">
+              </div>
+            </td>
+            <td id="percentRes2"></td>
+          </tr>
+          <tr>
+              <td>Activity 3</td>
+              <td>A3</td>
+              <td><input type="text" id="weighted3"></td>
+              <td>
+                <div>
+                    <input type="text" id="gradeInput3">
+                    <p>/</p>
+                    <input type="text" id="gradeOverallInput3">
+                </div>
+              </td>
+              <td id="percentRes3"></td>
+            </tr>
+            <tr>
+                <td>Activity 4</td>
+                <td>A4</td>
+                <td><input type="text" id="weighted4"></td>
+                <td>
+                  <div>
+                      <input type="text" id="gradeInput4">
+                      <p>/</p>
+                      <input type="text" id="gradeOverallInput4">
+                  </div>
+                </td>
+                <td id="percentRes4"></td>
+              </tr>
+      </table>
+      <h5 id="result">Result: </h5>
+      <p id="weightedRes" class="res">WEIGHTED=</p>
+      <p id="meanRes" class="res"></p>
+      <div id="bottomButtons">
+        <button id="weightedBtn">WEIGHTED</button>
+        <button id="meanBtn">MEAN</button>
+      </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/stylesheets/calculator.js"></script>
+</body>
+</html>
